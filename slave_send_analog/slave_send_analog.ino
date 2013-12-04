@@ -3,10 +3,12 @@
 
 byte byteData[2 * NUMDATA]; //= {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 
+//test
+
 void setup()
 {
   //Serial.begin(115200);
-  Wire.begin(1);                // join i2c bus with address #2
+  Wire.begin(3);                // join i2c bus with address #2
   Wire.onRequest(requestEvent); // register event
 }
 
